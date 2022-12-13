@@ -150,8 +150,13 @@ h2 {
 } 
 
 @media screen and (orientation:landscape) and (max-height:600px) {
+  #botones {
+    max-width:5em;
+    gap: 4em;
+    max-height: 2.5em;
+  }
   h2 {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
   img {
     position:absolute;
