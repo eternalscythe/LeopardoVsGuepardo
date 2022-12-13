@@ -80,9 +80,9 @@ h2 {
 
 @media screen and (orientation:portrait) and (min-width:601px) {
   #botones {
-    max-width:5em;
+    width:5em;
     gap: 4em;
-    max-height: 2.5em;
+    height: 2.5em;
   }
   #caracteristicas {
     margin-top: 6.5em;
@@ -114,9 +114,9 @@ h2 {
 
 @media screen  and (max-width:600px) {
   #botones {
-    max-width:5em;
+    width:5em;
     gap: 4em;
-    max-height: 2.5em;
+    height: 2.5em;
   }
   #caracteristicas {
     margin-top: 6.5em;
@@ -151,9 +151,9 @@ h2 {
 
 @media screen and (orientation:landscape) and (max-height:600px) {
   #botones {
-    max-width:5em;
+    width:2em;
     gap: 4em;
-    max-height: 2.5em;
+    height: 2em;
   }
   h2 {
     font-size: 1.1em;
