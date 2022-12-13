@@ -85,7 +85,10 @@ h2 {
     max-height: 2.5em;
   }
   #caracteristicas {
-    margin-top: 6em;
+    margin-top: 7em;
+  }
+  h2 {
+    font-size: 1.5em;
   }
   img {
     position:absolute;
@@ -98,5 +101,13 @@ h2 {
     opacity: 0.5;
     z-index: -1;
   }
-
+  @keyframes entrar {
+    from {
+        margin-top: 55em;  
+    }
+  
+    to {
+        margin-top: 7em;
+    }
+  }
 }
