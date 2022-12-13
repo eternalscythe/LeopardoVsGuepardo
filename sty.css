@@ -155,6 +155,18 @@ h2 {
     gap: 4em;
     height: 2em;
   }
+  #caracteristicas {
+    margin-top: 7em;
+  }
+  @keyframes entrar {
+    from {
+        margin-top: 55em;  
+    }
+  
+    to {
+        margin-top: 7em;
+    }
+  }
   h2 {
     font-size: 1.1em;
   }
