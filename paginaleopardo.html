@@ -16,7 +16,18 @@
         <button onclick= "window.location.href='index.html'"> <h1>Leopardo</h1> </button>
     </div>
     <div id="caracteristicas">
-        <img src="Leopardo.jpg" alt="FotoLeopardo">
+        <picture>
+            <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./LeopardoGrandeH.avif" type="image/avif">
+            <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./LeopardoGrandeH.webp" type="image/webp">
+            <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./LeopardoGrandeH.jpg" type="image/jpeg">
+            <source media="(orientation: landscape) and (min-width: 901px)" srcset="./LeopardoMedianoH.avif" type="image/avif">
+            <source media="(orientation: landscape) and (min-width: 901px)" srcset="./LeopardoMedianoH.webp" type="image/webp">
+            <source media="(orientation: landscape) and (min-width: 901px)" srcset="./LeopardoMedianoH.jpg" type="image/jpeg">
+            <source media="(orientation: landscape) and (max-width: 900px)" srcset="./LeopardoPequeñoH.avif" type="image/avif">
+            <source media="(orientation: landscape) and (max-width: 900px)" srcset="./LeopardoPequeñoH.webp" type="image/webp">
+            <source media="(orientation: landscape) and (max-width: 900px)" srcset="./LeopardoPequeñoH.jpg" type="image/jpeg">
+            <img alt="Leopardo" title="Leopardinho" src="./Leopardo.jpg" />
+        </picture>
         <h2>
             Las características más importantes de un leopardo son su tamaño, 
             su coloración y su habilidad para cazar. El leopardo es más grande que el guepardo y 
