@@ -116,15 +116,15 @@ h2 {
   }
 }
 
-@media screen  and (max-width:600px) {
+@media screen and (orientation:portrait) and (max-width:600px) {
   #botones {
-    width:5em;
-    gap: 4em;
-    height: 2.5em;
+    width:4em;
+    gap: 3em;
+    height: 1.5em;
   }
 
   h2 {
-    font-size: medium;
+    font-size: small;
     position: absolute;
     padding-top: 5em;
   }
